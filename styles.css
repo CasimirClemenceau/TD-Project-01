@@ -57,11 +57,19 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+.header_index {
+  background: url('images/background-image.jpg') no-repeat top center;  
+}
+
+.header_experience {
+  background: url('images/background-experience.jpg') no-repeat top center;
+}
+
 header {
   line-height: 1.5;
 }
@@ -69,12 +77,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 30%;
+  border: 10px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(720deg);
 }
 .tag {
   background-color: #efefef;
@@ -100,6 +108,11 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.card_image {
+  max-width: 95%;
+  margin: auto; 
 }
 
 ul.skills {
